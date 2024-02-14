@@ -12,6 +12,18 @@ Si j'ai envie par exemple de mettre une image
 
 
 ![Cest quoi ](posts/youtube_banniere 1.png)
+import Image from 'next/image';
+
+function MaPage() {
+  return (
+    <div>
+      <h1>Ma Page</h1>
+      <Image src="/posts/youtube_banniere 1.png" alt="Description de l'image" width={500} height={300} />
+    </div>
+  );
+}
+
+export default MaPage;
 
 
  youtube_banniere 1.jpg
